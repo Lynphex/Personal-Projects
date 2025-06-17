@@ -6,7 +6,7 @@ Este proyecto automatiza el registro diario de producción técnica, ofreciendo 
 El siguiente mapa conceptual resume visualmente la estructura del sistema, los componentes clave y los principales retos técnicos abordados durante el desarrollo:
 
 
-🔗 Haz clic en la imagen para verla en tamaño completo
+🔗 [![Mapa Conceptual del Proyecto](QS-Bro/MindMap_Workflow.png)](QS-Bro/MindMap_Workflow.png)
 
 <details>
 <summary>🇪🇸 Español – Resumen General</summary>
