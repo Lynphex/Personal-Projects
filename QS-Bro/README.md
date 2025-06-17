@@ -6,7 +6,7 @@ Este proyecto automatiza el registro diario de producción técnica, ofreciendo 
 El siguiente mapa conceptual resume visualmente la estructura del sistema, los componentes clave y los principales retos técnicos abordados durante el desarrollo:
 
 
-🔗 [![Mapa Conceptual del Proyecto](QS-Bro/MindMap_Workflow.png)](QS-Bro/MindMap_Workflow.png)
+🔗 [![Mapa Conceptual del Proyecto]([QS-Bro/MindMap_Workflow.png](https://github.com/Lynphex/Personal-Projects/blob/0cddf6fde7d7245ed012be74615bc08afae763bd/QS-Bro/MindMap_Workflow.png))]([QS-Bro/MindMap_Workflow.png](https://github.com/Lynphex/Personal-Projects/blob/0cddf6fde7d7245ed012be74615bc08afae763bd/QS-Bro/MindMap_Workflow.png))
 
 <details>
 <summary>🇪🇸 Español – Resumen General</summary>
