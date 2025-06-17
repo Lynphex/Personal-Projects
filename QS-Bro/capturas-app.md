@@ -10,7 +10,7 @@ Haz clic en el idioma para desplegar las capturas correspondientes:
 ### 1. Pantalla Principal  
 Vista donde el técnico puede seleccionar el día de trabajo.
 
-![Pantalla Principal](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
+![Pantalla Principal](https://github.com/user-attachments/assets/2fd44830-bca5-48aa-9fa0-9d21e058f6cb)
 
 ---
 
@@ -36,7 +36,7 @@ Resumen automático del rendimiento del técnico, incluyendo puntos y salario br
 ### 1. Main Screen  
 Where the technician selects the workday.
 
-![Main Screen](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
+![Main Screen](https://github.com/user-attachments/assets/2fd44830-bca5-48aa-9fa0-9d21e058f6cb)
 
 ---
 
@@ -62,7 +62,7 @@ A performance summary including points and estimated gross salary.
 ### 1. Écran Principal  
 Vue où le technicien sélectionne le jour de travail.
 
-![Écran Principal](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
+![Écran Principal](https://github.com/user-attachments/assets/2fd44830-bca5-48aa-9fa0-9d21e058f6cb)
 
 ---
 
@@ -79,3 +79,4 @@ Résumé des performances du technicien avec points et salaire brut estimé.
 ![Vue Total Approximatif](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
 
 </details>
+![image](https://github.com/user-attachments/assets/2fd44830-bca5-48aa-9fa0-9d21e058f6cb)
