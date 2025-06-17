@@ -1,13 +1,27 @@
-# Esquema de la Aplicación AppSheet: Seguimiento de Producción para Técnicos
+# 📄Aplicación AppSheet: Seguimiento de Producción para Técnicos
 
 Este documento describe la configuración y el esquema de la aplicación AppSheet diseñada para el seguimiento de la producción diaria de técnicos, la visualización de resúmenes personalizados y la gestión de datos.
 
+## ** ⚠️ ADVERTENCIA: VALORES DE EJEMPLO / WARNING: SAMPLE VALUES / AVERTISSEMENT : VALEURS D'EXEMPLE**
+
+<details>
+<summary> ⚠️ Detalle de la Advertencia / Warning Details / Détails de l'Avertissement</summary>
+
+**Español:**
+Por favor, tened en cuenta que todos los valores numéricos de producción (ej. REUTI, COMPLETA, AV-POST, REP, BONOS) utilizados en la hoja de cálculo de la plantilla y en los cálculos de esta aplicación son **puramente ficticios y se incluyen únicamente con fines de demostración**. Por lo tanto, los valores calculados como PUNTOS, PB y SALARIO BRUTO también son ficticios y no representan datos reales ni compensaciones económicas verdaderas.
+
+**English:**
+Please note that all numerical production values (e.g., REUTI, COMPLETA, AV-POST, REP, BONOS) used in the template spreadsheet and in the calculations within this application are **purely fictitious and included for demonstration purposes only**. Therefore, calculated values such as POINTS, PB, and GROSS SALARY are also fictitious and do not represent real-world data or actual financial compensation.
+
+**Français:**
+Veuillez noter que toutes les valeurs numériques de production (par exemple, REUTI, COMPLETA, AV-POST, REP, BONOS) utilisées dans le modèle de feuille de calcul et dans les calculs de cette application sont **purement fictives et incluses uniquement à des fins de démonstration**. Par conséquent, les les valeurs calculées telles que POINTS, PB et SALAIRE BRUT sont également fictives et ne représentent ni des données réelles ni une compensation financière réelle.
+</details>
 ---
 
 <details>
 <summary>🇪🇸 Versión en Español</summary>
 
-## 1. Visión General de la Aplicación
+## 📱 1. Visión General de la Aplicación
 
 La aplicación AppSheet sirve como la interfaz principal para:
 * La entrada de datos de producción diarios por parte de los técnicos.
@@ -16,7 +30,7 @@ La aplicación AppSheet sirve como la interfaz principal para:
 * Garantizar la seguridad y privacidad de los datos, mostrando a cada usuario solo su información relevante.
 
 <details>
-<summary>2. Fuentes de Datos</summary>
+<summary> 🔄 2. Fuentes de Datos</summary>
 
 La aplicación se conecta a una única Hoja de Cálculo de Google, que contiene las siguientes pestañas tratadas como tablas en AppSheet:
 
@@ -27,7 +41,7 @@ La aplicación se conecta a una única Hoja de Cálculo de Google, que contiene 
 <details>
 <summary>3. Configuración de Tablas</summary>
 
-### 3.1. Tabla: `Datos Centralizados`
+### 📊 3.1. Tabla: `Datos Centralizados`
 
 * **Propósito:** Almacenar los registros de producción diarios de todos los técnicos.
 * **Fuente:** Pestaña `Datos Centralizados` de Google Sheets.
@@ -43,7 +57,7 @@ La aplicación se conecta a una única Hoja de Cálculo de Google, que contiene 
     * `Email Empleado` (Columna H): `Email` - **Key** (parte de la clave compuesta con `FECHA`)
     * *(Opcional) `Timestamp` (Columna I):* `DateTime` (AppSheet gestionado para auditar la última modificación).
 
-### 3.2. Tabla: `Resumen Calculado`
+### 📊 3.2. Tabla: `Resumen Calculado`
 
 * **Propósito:** Servir como base para mostrar los totales y cálculos agregados por empleado. Contiene una lista única de todos los emails de los empleados.
 * **Fuente:** Pestaña `Resumen Calculado` de Google Sheets.
@@ -91,7 +105,7 @@ La aplicación se conecta a una única Hoja de Cálculo de Google, que contiene 
         * **Tipo:** `Number`
         * **Fórmula:**
             ```appsheet
-            ([Total REUTI] * 2) + ([Total COMPLETA] * 3) + ([Total AV-POST] * 1) + ([Total REP] * 0.5) + ([Total BONOS] * 0.5)
+            ([Total REUTI] * 5) + ([Total COMPLETA] * 5) + ([Total AV-POST] * 5) + ([Total REP] * 5) + ([Total BONOS] * 5)
             ```
 
     * **`PB`**
@@ -105,7 +119,7 @@ La aplicación se conecta a una única Hoja de Cálculo de Google, que contiene 
         * **Tipo:** `Number`
         * **Fórmula:**
             ```appsheet
-            ([Total REUTI] * 18) + ([Total COMPLETA] * 25) + ([Total AV-POST] * 10) + ([Total REP] * 5) + ([Total BONOS] * 5)
+            ([Total REUTI] * 5) + ([Total COMPLETA] * 5) + ([Total AV-POST] * 5) + ([Total REP] * 5) + ([Total BONOS] * 5)
             ```
 
     * **`ADVERTENCIA_TEXTO`**
@@ -117,7 +131,7 @@ La aplicación se conecta a una única Hoja de Cálculo de Google, que contiene 
 </details>
 
 <details>
-<summary>4. Vistas de Usuario (UX Views)</summary>
+<summary> 👀 4. Vistas de Usuario (UX Views)</summary>
 
 Las vistas principales de la aplicación incluyen:
 
@@ -130,7 +144,7 @@ Las vistas principales de la aplicación incluyen:
 </details>
 
 <details>
-<summary>5. Configuración de Seguridad</summary>
+<summary> 🛠️ 5. Configuración de Seguridad</summary>
 
 La aplicación implementa seguridad a nivel de fila para proteger la privacidad de los datos de cada técnico.
 
@@ -240,7 +254,7 @@ The application connects to a single Google Sheet, which contains the following 
         * **Type:** `Number`
         * **Formula:**
             ```appsheet
-            ([Total REUTI] * 2) + ([Total COMPLETA] * 3) + ([Total AV-POST] * 1) + ([Total REP] * 0.5) + ([Total BONOS] * 0.5)
+            ([Total REUTI] * 5) + ([Total COMPLETA] * 5) + ([Total AV-POST] * 5) + ([Total REP] * 5) + ([Total BONOS] * 5)
             ```
 
     * **`PB`**
@@ -254,7 +268,7 @@ The application connects to a single Google Sheet, which contains the following 
         * **Type:** `Number`
         * **Formula:**
             ```appsheet
-            ([Total REUTI] * 18) + ([Total COMPLETA] * 25) + ([Total AV-POST] * 10) + ([Total REP] * 5) + ([Total BONOS] * 5)
+            ([Total REUTI] * 5) + ([Total COMPLETA] * 5) + ([Total AV-POST] * 5) + ([Total REP] * 5) + ([Total BONOS] * 5)
             ```
 
     * **`DISCLAIMER_TEXT`**
@@ -389,7 +403,7 @@ L'application se connecte à une unique feuille de calcul Google, qui contient l
         * **Type :** `Number`
         * **Formule :**
             ```appsheet
-            ([Total REUTI] * 2) + ([Total COMPLETA] * 3) + ([Total AV-POST] * 1) + ([Total REP] * 0.5) + ([Total BONOS] * 0.5)
+            ([Total REUTI] * 5) + ([Total COMPLETA] * 5) + ([Total AV-POST] * 5) + ([Total REP] * 5) + ([Total BONOS] * 5)
             ```
 
     * **`PB`**
@@ -403,7 +417,7 @@ L'application se connecte à une unique feuille de calcul Google, qui contient l
         * **Type :** `Number`
         * **Formule :**
             ```appsheet
-            ([Total REUTI] * 18) + ([Total COMPLETA] * 25) + ([Total AV-POST] * 10) + ([Total REP] * 5) + ([Total BONOS] * 5)
+            ([Total REUTI] * 5) + ([Total COMPLETA] * 5) + ([Total AV-POST] * 5) + ([Total REP] * 5) + ([Total BONOS] * 5)
             ```
 
     * **`TEXTE_AVERTISSEMENT`**
