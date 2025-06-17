@@ -2,7 +2,7 @@
 
 Este proyecto automatiza el registro diario de producción técnica, ofreciendo un sistema limpio, seguro y visual para cada empleado. Usa **AppSheet** como interfaz de entrada y **Google Sheets** como base de datos, con vistas individuales y resúmenes automáticos.
 
-## ** ⚠️ ADVERTENCIA: VALORES DE EJEMPLO / WARNING: SAMPLE VALUES / AVERTISSEMENT : VALEURS D'EXEMPLE**
+##  ⚠️ ADVERTENCIA: VALORES DE EJEMPLO / WARNING: SAMPLE VALUES / AVERTISSEMENT : VALEURS D'EXEMPLE
 
 <details>
 <summary> ⚠️ Detalle de la Advertencia / Warning Details / Détails de l'Avertissement</summary>
