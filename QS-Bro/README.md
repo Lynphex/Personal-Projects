@@ -3,7 +3,8 @@
 Este proyecto automatiza el registro diario de producción técnica, ofreciendo un sistema limpio, seguro y visual para cada empleado. Usa **AppSheet** como interfaz de entrada y **Google Sheets** como base de datos, con vistas individuales y resúmenes automáticos.
 
 🧠 Mapa Conceptual del Proyecto
-  El siguiente mapa conceptual resume visualmente la estructura del sistema, los componentes clave y los principales retos técnicos abordados durante el desarrollo:
+
+El siguiente mapa conceptual resume visualmente la estructura del sistema, los componentes clave y los principales retos técnicos abordados durante el desarrollo:
 
 [![Mapa Conceptual del Proyecto](https://raw.githubusercontent.com/Lynphex/Personal-Projects/main/QS-Bro/MindMap_Workflow.png)](https://raw.githubusercontent.com/Lynphex/Personal-Projects/main/QS-Bro/MindMap_Workflow.png)
 
