@@ -2,6 +2,21 @@
 
 Este proyecto automatiza el registro diario de producción técnica, ofreciendo un sistema limpio, seguro y visual para cada empleado. Usa **AppSheet** como interfaz de entrada y **Google Sheets** como base de datos, con vistas individuales y resúmenes automáticos.
 
+## ** ⚠️ ADVERTENCIA: VALORES DE EJEMPLO / WARNING: SAMPLE VALUES / AVERTISSEMENT : VALEURS D'EXEMPLE**
+
+<details>
+<summary> ⚠️ Detalle de la Advertencia / Warning Details / Détails de l'Avertissement</summary>
+
+**Español:**
+Por favor, tened en cuenta que todos los valores numéricos de producción (ej. REUTI, COMPLETA, AV-POST, REP, BONOS) utilizados en la hoja de cálculo de la plantilla y en los cálculos de esta aplicación son **puramente ficticios y se incluyen únicamente con fines de demostración**. Por lo tanto, los valores calculados como PUNTOS, PB y SALARIO BRUTO también son ficticios y no representan datos reales ni compensaciones económicas verdaderas.
+
+**English:**
+Please note that all numerical production values (e.g., REUTI, COMPLETA, AV-POST, REP, BONOS) used in the template spreadsheet and in the calculations within this application are **purely fictitious and included for demonstration purposes only**. Therefore, calculated values such as POINTS, PB, and GROSS SALARY are also fictitious and do not represent real-world data or actual financial compensation.
+
+**Français:**
+Veuillez noter que toutes les valeurs numériques de production (par exemple, REUTI, COMPLETA, AV-POST, REP, BONOS) utilisées dans le modèle de feuille de calcul et dans les calculs de cette application sont **purement fictives et incluses uniquement à des fins de démonstration**. Par conséquent, les les valeurs calculées telles que POINTS, PB et SALAIRE BRUT sont également fictives et ne représentent ni des données réelles ni une compensation financière réelle.
+</details>
+
 🧠 Mapa Conceptual del Proyecto
 
 El siguiente mapa conceptual resume visualmente la estructura del sistema, los componentes clave y los principales retos técnicos abordados durante el desarrollo:
