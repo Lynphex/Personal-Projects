@@ -2,7 +2,7 @@
 
 Este documento describe la configuración y el esquema de la aplicación AppSheet diseñada para el seguimiento de la producción diaria de técnicos, la visualización de resúmenes personalizados y la gestión de datos.
 
-## ** ⚠️ ADVERTENCIA: VALORES DE EJEMPLO / WARNING: SAMPLE VALUES / AVERTISSEMENT : VALEURS D'EXEMPLE**
+## ⚠️ ADVERTENCIA: VALORES DE EJEMPLO / WARNING: SAMPLE VALUES / AVERTISSEMENT : VALEURS D'EXEMPLE
 
 <details>
 <summary> ⚠️ Detalle de la Advertencia / Warning Details / Détails de l'Avertissement</summary>
