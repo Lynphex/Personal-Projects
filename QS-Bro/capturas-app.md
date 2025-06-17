@@ -10,14 +10,14 @@ Haz clic en el idioma para desplegar las capturas correspondientes:
 ### 1. Pantalla Principal  
 Vista donde el técnico puede seleccionar el día de trabajo.
 
-![Pantalla Principal](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
+![Pantalla Principal](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
 
 ---
 
 ### 2. Formulario de Producción  
 Formulario que el técnico rellena con los datos de su jornada laboral.
 
-![Formulario de Producción](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
+![Formulario de Producción](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
 
 ---
 
@@ -36,14 +36,14 @@ Resumen automático del rendimiento del técnico, incluyendo puntos y salario br
 ### 1. Main Screen  
 Where the technician selects the workday.
 
-![Main Screen](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
+![Main Screen](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
 
 ---
 
 ### 2. Production Entry Form  
 Form where the technician fills out their workday data.
 
-![Production Entry Form](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
+![Production Entry Form](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
 
 ---
 
@@ -62,14 +62,14 @@ A performance summary including points and estimated gross salary.
 ### 1. Écran Principal  
 Vue où le technicien sélectionne le jour de travail.
 
-![Écran Principal](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
+![Écran Principal](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
 
 ---
 
 ### 2. Formulaire de Production  
 Formulaire que le technicien remplit avec les données de sa journée.
 
-![Formulaire de Production](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
+![Formulaire de Production](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
 
 ---
 
@@ -79,7 +79,3 @@ Résumé des performances du technicien avec points et salaire brut estimé.
 ![Vue Total Approximatif](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
 
 </details>
-
-![image](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
-![image](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
-![image](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
