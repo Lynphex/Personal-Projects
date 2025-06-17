@@ -17,7 +17,7 @@ Vista donde el técnico puede seleccionar el día de trabajo.
 ### 2. Formulario de Producción  
 Formulario que el técnico rellena con los datos de su jornada laboral.
 
-![Formulario de Producción](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
+![Formulario de Producción](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
 
 ---
 
@@ -43,7 +43,7 @@ Where the technician selects the workday.
 ### 2. Production Entry Form  
 Form where the technician fills out their workday data.
 
-![Production Entry Form](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
+![Production Entry Form](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
 
 ---
 
@@ -69,7 +69,7 @@ Vue où le technicien sélectionne le jour de travail.
 ### 2. Formulaire de Production  
 Formulaire que le technicien remplit avec les données de sa journée.
 
-![Formulaire de Production](https://github.com/user-attachments/assets/66390eb8-92fd-4f1e-abe8-94abb0c4f802)
+![Formulaire de Production](https://github.com/user-attachments/assets/fa46bc78-81c3-436b-a77a-30f3cbde6c38)
 
 ---
 
