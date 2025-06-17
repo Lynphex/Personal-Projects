@@ -166,7 +166,7 @@ La aplicación implementa seguridad a nivel de fila para proteger la privacidad 
 <details>
 <summary>🇬🇧 English Version</summary>
 
-# AppSheet Application Schema: Technician Production Tracking
+# AppSheet Application: Technician Production Tracking
 
 This document describes the configuration and schema of the AppSheet application designed for daily technician production tracking, personalized summary visualization, and data management.
 
@@ -315,7 +315,7 @@ The application implements row-level security to protect the privacy of each tec
 <details>
 <summary>🇫🇷 Version Française</summary>
 
-# Schéma de l'Application AppSheet : Suivi de Production des Techniciens
+# Application AppSheet : Suivi de Production des Techniciens
 
 Ce document décrit la configuration et le schéma de l'application AppSheet conçue pour le suivi quotidien de la production des techniciens, la visualisation personnalisée des résumés et la gestion des données.
 
