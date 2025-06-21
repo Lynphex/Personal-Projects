@@ -115,7 +115,7 @@ The script automates data flow between a central tracking sheet and individual b
 graph TD
     A[Start: Trigger on Day 31] --> B[Backup Central DB];
     B --> C[Copy Employee Data 21–31];
-    C --> D[Clean "Central Data"];
+    C --> D[Clean Central Data];
     D --> E[Process Ends];
     H[IMPORTRANGE: days 1–20];
 ```
@@ -202,7 +202,7 @@ Le script automatise le transfert de données entre une feuille centrale de suiv
 graph TD
     A[Début : Déclencheur le 31] --> B[Sauvegarde de la base centrale];
     B --> C[Copie des données employés 21–31];
-    C --> D[Nettoyage de "Données centralisées"];
+    C --> D[Nettoyage de Données centralisées];
     D --> E[Fin du processus];
     H[IMPORTRANGE : jours 1–20];
 ```
