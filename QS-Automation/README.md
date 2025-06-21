@@ -29,7 +29,7 @@ El script automatiza el flujo de datos entre una hoja central de seguimiento y l
 ```mermaid
 graph TD
     A[Inicio: Activador Día 31] --> B[Copia de Seguridad de DB Central];
-    B --> C[Copiar Datos Técnicos (21-31)];
+    B --> C[Copiar Datos Técnicos 21-31];
     C --> D[Limpiar Datos Centralizados];
     D --> E[Fin del Proceso];
     H[IMPORTRANGE: días 1-20];
