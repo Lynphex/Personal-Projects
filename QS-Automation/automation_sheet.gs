@@ -47,34 +47,33 @@ function cargarConfiguracion() {
 }
 
 function ejecutarProcesoMensual() {
-  const ui = SpreadsheetApp.getUi();
   let procesoExitoso = true;
 
   try {
     cargarConfiguracion();
     // 1. Crea una copia de seguridad de la hoja ORIGEN completa
-    ui.alert('Paso 1/3: Creando copia de seguridad de la hoja de origen...');
+    Logger.log('Paso 1/3: Creando copia de seguridad de la hoja de origen...'); 
     hacerCopiaDeSeguridadDB();
     Logger.log('Copia de seguridad de la base de datos de origen creada exitosamente.');
 
     // 2. Copia los datos de los empleados de ORIGEN a DESTINO
-    ui.alert('Paso 2/3: Copiando datos de empleados de origen a destino...');
+    Logger.log('Paso 2/3: Copiando datos de empleados de origen a destino...');
     copiarDatosEmpleados();
     Logger.log('Datos de empleados copiados exitosamente.');
 
     // 3. Limpia los datos en las pestañas de ORIGEN
-    ui.alert('Paso 3/3: Limpiando datos en las pestañas de origen...');
+    Logger.log('Paso 3/3: Limpiando datos en las pestañas de origen...');
     limpiarDatosOrigen();
     Logger.log('Datos de origen limpiados exitosamente.');
 
   } catch (e) {
     procesoExitoso = false;
     Logger.log(`Error crítico durante el proceso: ${e.message}`);
-    ui.alert('Proceso Fallido', `Ha ocurrido un error inesperado: ${e.message}. Revisa los registros para más detalles.`, ui.ButtonSet.OK);
+    Logger.log(`Proceso Fallido: Ha ocurrido un error inesperado: ${e.message}. Revisa los registros para más detalles.`); 
   }
 
   if (procesoExitoso) {
-    ui.alert('Proceso Completado', 'El proceso de copia, respaldo y limpieza se ha realizado con éxito.', ui.ButtonSet.OK);
+    Logger.log('Proceso Completado: El proceso de copia, respaldo y limpieza se ha realizado con éxito.'); 
   }
 }
 
